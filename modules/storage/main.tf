@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "secure-bucket" {
-  bucket = "secure-bucket"
+  bucket = "snyk-secure-bucket"
   server_side_encryption_configuration {
     rule {
       apply_server_side_encryption_by_default {
@@ -11,5 +11,5 @@ resource "aws_s3_bucket" "secure-bucket" {
 }
 
 resource "aws_s3_bucket" "insecure-bucket" {
-  bucket = "insecure-bucket"
+  bucket = "snyk-insecure-bucket"
 }

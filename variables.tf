@@ -5,7 +5,7 @@ variable "region" {
 
 variable "ami" {
   type    = string
-  description = "ami used for ec2 instance. example - ami-0a91cd140a1fc148a (Ubuntu 20.4 LTS)"
+  description = "ami used for ec2 instance. example - ami-0be2609ba883822ec"
 }
 
 variable "access_key" {

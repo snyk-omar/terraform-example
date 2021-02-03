@@ -1,4 +1,4 @@
-# Snyk Infrastructure as Code Demo
+# Snyk Terraform Demo
 
 This repository contains a hello world example which demonstrates the Terraform features of Snyk Infrastructure as code. In particular:
 
