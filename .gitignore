@@ -1,9 +1,15 @@
+.dccache
+
 //Ignoring Secrets
 secret.auto.tfvars
 
 //Ignore IDE files
 .idea/
+.vscode/
 
 
 //Ignore terraform config files
 .terraform/*
+
+*.hcl
+.iac-data
