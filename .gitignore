@@ -13,3 +13,4 @@ secret.auto.tfvars
 
 *.hcl
 .iac-data
+*.binary
